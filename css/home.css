@@ -528,16 +528,15 @@ html{
     line-height: 32px;
     letter-spacing: 0;
     max-width: 469px;
+    margin: 0 0 128px;
 }
-.block-8-user-info{
-    margin: 121px 0 0 ;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-
+.user__info {
+    display: flex
+;
+    align-items: center;
+    gap: 16px;
 }
-.block-8-user-info span{
+.user__text h4{
     margin:  0 0 0 16px;
     font-family: 'Sen';
     Font-weight: 700;
@@ -545,7 +544,7 @@ html{
     line-height: 32px;
     letter-spacing: 0;
 }
-.block-8-user-info p{
+.user__text p{
     font-family: 'Inter 18pt';
     font-weight: 400;
     font-size: 16px;

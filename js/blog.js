@@ -40,8 +40,6 @@ async function getAllPosts() {
                     </div>
   
       `;
-
-    console.log(content[key]);
   }
 }
 getAllPosts();
@@ -75,8 +73,6 @@ async function getAllPostsThree() {
                       </div>
     
         `;
-
-    console.log(content[key]);
   }
 }
 getAllPostsThree();
@@ -99,8 +95,6 @@ async function getResponse() {
               </div>
   
       `;
-
-    console.log(content[key]);
   }
 }
 getResponse();

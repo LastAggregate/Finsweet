@@ -18,8 +18,6 @@ async function getResponse() {
             </div>
 
     `;
-
-    console.log(content[key]);
   }
 }
 getResponse();
@@ -58,8 +56,6 @@ async function getAuthors() {
             </div>
 
     `;
-
-    console.log(content[key]);
   }
 }
 getAuthors();

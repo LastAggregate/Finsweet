@@ -23,8 +23,6 @@ async function getAuthors() {
                         </div>
                     </div>
       `;
-
-    console.log(content[key]);
   }
 }
 getAuthors();
