@@ -19,7 +19,7 @@ body{
 }
 a{
     text-decoration: none;
-    
+    color: black;
 }
 header nav{
     float: right;
@@ -243,24 +243,23 @@ header nav ul li.btn a:hover{
 }
 .block-6-authors-info{
     display: flex;
-    justify-content: center;
-    margin-top: 32px;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 .block-6-authors{
     background-color: rgb(244, 240, 248);
-    padding: 40px 84px;
-    max-width: 296px;
+    padding: 40px 0;
     text-align: center;
-    margin-right: 32px;
-    transition: all 500ms ease;
+    margin: 0 0 10px;
+    width: 296px;
 }
 .block-6-authors:hover{
     background-color: rgb(251, 246, 234);
     
 }
 .block-6-authors h3{
-    margin: 20px 0 3px;
+    margin: 20px 15px 3px;
     font-family: 'Sen';
     Font-weight: 700;
     Font-size: 28px;

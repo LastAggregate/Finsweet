@@ -1,0 +1,138 @@
+{
+ "categories": [
+	{
+		"id": 1,
+		"name": "Business",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
+		"icon": "./images/Home/icon/Icon.png"
+	},
+  {
+		"id": 2,
+		"name": "Admin Administrator",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"icon": "./images/Home/icon/Icon.png"
+	}
+],
+  "authors":[
+    {
+      "id": 1,
+      "photo":  "./images/Home/authors/author1.png",
+      "name": "Admin Administratorik",
+      "description": "Content Writer @Company",
+      "fb": "https://www.facebook.com/",
+      "tw": "https://x.com/",
+      "ig": "https://www.instagram.com/",
+      
+      "in": "https://www.linkedin.com/login"
+    },
+    {
+      "id": 2,
+      "photo":  "./images/Home/authors/author2.png",
+      "name": "Admin Administrator",
+      "description": "Content Writer @Company",
+      "fb": "https://www.facebook.com/",
+      "tw": "https://x.com/",
+      "ig": "https://www.instagram.com/",
+      
+      "in": "https://www.linkedin.com/login"
+    },
+    {
+      "id": 3,
+      "photo":  "./images/Home/authors/author4.png",
+      "name": "Admin Administrator",
+      "description": "Content Writer @Company",
+      "fb": "https://www.facebook.com/",
+      "ig": "https://www.instagram.com/",
+      "tw": "https://www.linkedin.com/login",
+      "in": "https://www.linkedin.com/login"
+    },
+    {
+      "id": 4,
+      "photo":  "./images/Home/authors/author3.png",
+      "name": "Admin Administrator",
+      "description": "Content Writer @Company",
+      "fb": "https://www.facebook.com/",
+      "ig": "https://www.instagram.com/",
+      "tw": "https://www.linkedin.com/login",
+      "in": "https://www.linkedin.com/login"
+    }
+    
+    
+  ],
+  "all-posts":[
+      {
+      "id": 1,
+      "photo":  "./images/blog/posts-photo/post1-5.png",
+      "name": "TESTING",
+      "fname": "Design tips for designers that cover everything you need ",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+      },
+      {
+        "id": 2,
+        "photo":  "./images/blog/posts-photo/post3.png",
+        "name": "TESTING-2",
+        "fname": "Design tips for designers that cover everything you need ",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        },
+        {
+          "id": 3,
+          "photo":  "./images/blog/posts-photo/post3.png",
+          "name": "TESTING-2",
+          "fname": "Design tips for designers that cover everything you need ",
+          "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+          },
+          {
+            "id": 4,
+            "photo":  "./images/blog/posts-photo/post3.png",
+            "name": "TESTING-2",
+            "fname": "Design tips for designers that cover everything you need ",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+            },
+            {
+              "id": 5,
+              "photo":  "./images/blog/posts-photo/post3.png",
+              "name": "TESTING-2",
+              "fname": "Design tips for designers that cover everything you need ",
+              "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+              }
+                  
+  ],
+  "all-posts-three":[
+      {
+      "id": 1,
+      "photo":  "./images/blog/posts-photo/post1-5.png",
+      "name": "TESTING",
+      "fname": "Design tips for designers that cover everything you need ",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+      },
+      {
+        "id": 2,
+        "photo":  "./images/blog/posts-photo/post3.png",
+        "name": "TESTING-2",
+        "fname": "Design tips for designers that cover everything you need ",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        },
+        {
+          "id": 3,
+          "photo":  "./images/blog/posts-photo/post3.png",
+          "name": "TESTING-2",
+          "fname": "Design tips for designers that cover everything you need ",
+          "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+          },
+          {
+            "id": 4,
+            "photo":  "./images/blog/posts-photo/post3.png",
+            "name": "TESTING-2",
+            "fname": "Design tips for designers that cover everything you need ",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+            },
+            {
+              "id": 5,
+              "photo":  "./images/blog/posts-photo/post3.png",
+              "name": "TESTING-2",
+              "fname": "Design tips for designers that cover everything you need ",
+              "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+              }
+                  
+  ]
+}

@@ -19,6 +19,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: black;
     
 }
 header nav{
@@ -328,7 +329,7 @@ html{
     border: 1px solid rgb(109 110 118 / 30%);
     background-color: rgb(251, 246, 234);
     line-height: 28px;
-
+    margin: 0 0 10px;
 }
 .block-4-blocks:hover{
     background-color: rgb(255, 255, 0);
@@ -438,9 +439,15 @@ html{
 }
 .block-6-authors{
     background-color: rgb(244, 240, 248);
-    padding: 40px 84px;
-    max-width: 296px;
+    padding: 40px 0;
+    
     text-align: center;
+    margin: 0 0 10px;
+    width: 296px;
+}
+.block-6-authors-construction{
+    max-width: 240px;
+    margin: 0 auto;
 }
 .block-6-authors:hover{
     background-color: #FBF6EA;

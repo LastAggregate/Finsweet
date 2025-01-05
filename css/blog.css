@@ -141,6 +141,8 @@ header nav ul li.btn a:hover{
     width: 100%;
     padding: 64px 76px 64px 80px;
 }
+
+
 .posts-container{
     display: flex;
     flex-wrap: wrap;
@@ -162,7 +164,37 @@ header nav ul li.btn a:hover{
 }
 .posts-block{
     display: flex;
+    flex-wrap: wrap;
+}
+.swiper {
+    max-width: 1285px;
+    height: 100%;
+  }
+  .swiper-slide {
     
+    font-size: 18px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: 140px !important;
+    left: auto;
+    background-image: url("../images/blog/button/Button\ \(1\).png");
+    display: none;
+  }
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: 140px !important;
+    
+    right: auto;
+  }
+ .buttons-display{
+    
+    display: flex;
+    justify-content: center;
 }
 .startup-info{
     padding: 79px 0;
@@ -249,7 +281,7 @@ header nav ul li.btn a:hover{
     border: 1px solid rgb(109 110 118 / 30%);
     background-color: rgb(251, 246, 234);
     line-height: 28px;
-
+    margin: 0 0 10px;
 }
 .block-3-blocks:hover{
     background-color: rgb(255, 255, 0);
@@ -280,6 +312,7 @@ header nav ul li.btn a:hover{
     border-radius: 5px;
 
 }
+
 .block-3-blocks-start h3{
     margin: 16px 0 4px;
     font-family: 'Sen';
@@ -300,6 +333,14 @@ header nav ul li.btn a:hover{
     align-items: center;     
     height: 100%;            
     width: 100%;      
+}
+.block-4-mains h2 {
+    font-family: 'Sen';
+    Font-weight: 700;
+    Font-size: 35px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    max-width: 414px;
 }
 .container-4{
     

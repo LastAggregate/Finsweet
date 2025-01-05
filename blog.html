@@ -7,8 +7,68 @@
     <link rel="stylesheet" href="./css/blog.css" />
     <link rel="stylesheet" href="./fonts/inter/stylesheet.css" />
     <link rel="stylesheet" href="./fonts/sen/stylesheet.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
+    <style>
+      .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: 140px !important;
+    left: auto;
+    background-image: url("./images/blog/button/Button\ \(1\).png");
+    
+    background-repeat: no-repeat;
+    
+    top: var(--swiper-navigation-top-offset, );
+    font-size: 0;
+    font-family: none;
+    position: static;
+    margin: 3px 0 0;
+    
+  }
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    right: 140px !important;
+    left: auto;
+    background-image: url("./images/blog/button/Next\ _.png");
+    
+    background-repeat: no-repeat;
+    
+    top: var(--swiper-navigation-top-offset, );
+    font-size: 0;
+    font-family: none;
+
+    position: static;
+    margin: 10px 0 0 0;
+    
+  }
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+    display: none;
+}
+  :root {
+    --swiper-navigation-size: 140px;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    /* font-family: swiper-icons; */
+    /* font-size: var(--swiper-navigation-size); */
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    font-size: 0;
+    font-family: none;
+}
+    </style>
+    
     <header>
       
         <div class="navbar">
@@ -48,80 +108,131 @@
     </header>
     <nav>
       <div class="all-posts">
-        <div class="posts-container">
-          <h1>All posts</h1>
-          <div class="separation"></div>
-          <div class="posts-block startup">
-            <div class="startup-photo">
-              <img src="./images/blog/posts-photo/post1-5.png" alt="startup" />
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="posts-container">
+                <h1>All posts</h1>
+                <div class="separation"></div>
+                <div class="swiper-slide">
+                  <div class="posts-block startup">
+                    <div class="startup-photo">
+                      <img src="./images/blog/posts-photo/post1-5.png" alt="startup" />
+                    </div>
+                    <div class="startup-info">
+                      <span><a href="category.html">STARTUP</a></span>
+                      <h3>
+                        <a href="blogpost.html"
+                          >Design tips for designers that cover everything you need</a
+                        >
+                      </h3>
+                      <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="posts-block startup">
+                    <div class="startup-photo">
+                      <img src="./images/blog/posts-photo/post2.png" alt="startup" />
+                    </div>
+                    <div class="startup-info">
+                      <span><a href="category.html">BUSINESS</a></span>
+                      <h3>
+                        <a href="blogpost.html">How to build rapport with your web design clients</a>
+                      </h3>
+                      <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="posts-block startup">
+                    <div class="startup-photo">
+                      <img src="./images/blog/posts-photo/post3.png" alt="startup" />
+                    </div>
+                    <div class="startup-info">
+                      <span><a href="category.html">STARTUP</a></span>
+                      <h3><a href="blogpost.html">Logo design trends to avoid in 2022</a></h3>
+                      <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="posts-block startup">
+                    <div class="startup-photo">
+                      <img src="./images/blog/posts-photo/post4.png" alt="startup" />
+                    </div>
+                    <div class="startup-info">
+                      <span><a href="category.html">TECHNOLOGY</a></span>
+                      <h3>
+                        <a href="blogpost.html">8 Figma design systems you can download for free today</a>
+                      </h3>
+                      <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="posts-block startup">
+                    <div class="startup-photo">
+                      <img src="./images/blog/posts-photo/post1-5.png" alt="startup" />
+                    </div>
+                    <div class="startup-info">
+                      <span><a href="category.html">STARTUP</a></span>
+                      <h3>
+                        <a href="blogpost.html">Font sizes in UI design: The complete guide to follow</a>
+                      </h3>
+                      <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                      </p>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  
+                </div>
+              </div>
             </div>
-            <div class="startup-info">
-              <span><a href="category.html">STARTUP</a></span>
-              <h3><a href="blogpost.html">Design tips for designers that cover everything you need</a></h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-              </p>
+            <div class="swiper-slide">
+              <div class="posts-container">
+                <h1>All posts</h1>
+                <div class="separation"></div>
+                <div class="swiper-slide-2">
+                  
+                  
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="posts-container">
+                  <h1>All posts</h1>
+                  <div class="separation"></div>
+                  <div class="swiper-slide-3">
+                    
+                    
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+              
             </div>
+            
           </div>
-          <div class="posts-block startup">
-            <div class="startup-photo">
-              <img src="./images/blog/posts-photo/post2.png" alt="startup" />
-            </div>
-            <div class="startup-info">
-              <span><a  href="category.html">BUSINESS</a></span>
-              <h3><a href="blogpost.html">How to build rapport with your web design clients</a></h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-              </p>
-            </div>
+          <div class="buttons-display">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
-          <div class="posts-block startup">
-            <div class="startup-photo">
-              <img src="./images/blog/posts-photo/post3.png" alt="startup" />
-            </div>
-            <div class="startup-info">
-              <span><a href="category.html">STARTUP</a></span>
-              <h3><a href="blogpost.html">Logo design trends to avoid in 2022</a></h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-              </p>
-            </div>
-          </div>
-          <div class="posts-block startup">
-            <div class="startup-photo">
-              <img src="./images/blog/posts-photo/post4.png" alt="startup" />
-            </div>
-            <div class="startup-info">
-              <span><a href="category.html">TECHNOLOGY</a></span>
-              <h3><a href="blogpost.html">8 Figma design systems you can download for free today</a></h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-              </p>
-            </div>
-          </div>
-          <div class="posts-block startup">
-            <div class="startup-photo">
-              <img src="./images/blog/posts-photo/post1-5.png" alt="startup" />
-            </div>
-            <div class="startup-info">
-              <span><a href="category.html">STARTUP</a></span>
-              <h3><a href="blogpost.html">Font sizes in UI design: The complete guide to follow</a></h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="buttons">
-          <a href="">< Prev</a>
-          <a href="">Next ></a>
         </div>
       </div>
+  
       <div class="block-3">
         <div class="container-3">
           <h2>Choose A Catagory</h2>
@@ -155,7 +266,7 @@
       </div>
       <div class="block-4">
         <div class="container-4">
-          <div class="block-4-main">
+          <div class="block-4-mains">
             <h2>Join our team to be a part of our story</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -221,5 +332,8 @@
       </div>
     </section>
     </footer>
+    <script src="./js/blog.js">
+      
+    </script>
   </body>
 </html>
